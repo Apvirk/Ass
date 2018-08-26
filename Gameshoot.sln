@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gameshoot", "Gameshoot.csproj", "{785CFD67-20A9-46B7-8062-C894D9D6EC25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameshootUnitTest", "..\GameshootUnitTest\GameshootUnitTest.csproj", "{79D2CF30-F239-4279-8116-659EA45D5409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shootingGameTest", "..\shootingGameTest\shootingGameTest.csproj", "{2DEFCC43-6ABD-4008-A801-FF72BF014261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,19 @@ Global
 		{785CFD67-20A9-46B7-8062-C894D9D6EC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{785CFD67-20A9-46B7-8062-C894D9D6EC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{785CFD67-20A9-46B7-8062-C894D9D6EC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D2CF30-F239-4279-8116-659EA45D5409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D2CF30-F239-4279-8116-659EA45D5409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D2CF30-F239-4279-8116-659EA45D5409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D2CF30-F239-4279-8116-659EA45D5409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEFCC43-6ABD-4008-A801-FF72BF014261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEFCC43-6ABD-4008-A801-FF72BF014261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEFCC43-6ABD-4008-A801-FF72BF014261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEFCC43-6ABD-4008-A801-FF72BF014261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A27F71E-AB93-4C25-B76A-E65FF389ACE8}
 	EndGlobalSection
 EndGlobal

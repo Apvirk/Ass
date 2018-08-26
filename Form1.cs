@@ -14,9 +14,13 @@ namespace Gameshoot
     {
         public Form1()
         {
+
+            // Form initialization
             InitializeComponent();
         }
 
+        ///
+        //picture box method
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -37,7 +41,7 @@ namespace Gameshoot
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            sound play_back_sound = new sound();
+            sound play_back_sound = new sound(); // plays the sound
             play_back_sound.play_back_sound();
         }
 
